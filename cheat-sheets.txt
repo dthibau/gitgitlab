@@ -1,0 +1,29 @@
+## Création de dépots
+git init
+git clone
+
+## commandes de base 
+git status
+gitk --all 
+git add 
+git commit -m
+
+git checkout -b <branche-locale>
+
+git merge <branche-a-integrer>
+git rebase <branche-de-depart>
+
+# Manipuler les dépôts distant
+git remote
+
+git fetch origin
+
+## Créer une branche en locale à partir d'une branche distante
+git checkout <nom-de-la-branche-distante>
+
+## Créer une branche distante à partir d'une branche locale
+git push -u origin <branche-locale> 
+
+## Supprimer une branche distante
+git push origin :<nom-de-la-branche-distante>
+
