@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if test $(head -1 "$1" | wc -c) -lt 10
+then
+cat <<\EOF
+Message pas assez long
+EOF
+exit 1
+fi
